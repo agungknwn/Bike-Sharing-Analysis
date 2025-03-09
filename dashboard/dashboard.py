@@ -97,8 +97,8 @@ def trend_plot(
 
     return fig
 
-
-file_path = os.path.join(os.getcwd(), "main_data.csv")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(current_dir, "main_data.csv")
 data = pd.read_csv(file_path)
 
 # Global variables
