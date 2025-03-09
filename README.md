@@ -23,3 +23,6 @@ pip install -r requirements.txt
 cd dashboard/
 streamlit run dashboard.py
 ```
+
+## or you can view the Dashboard here:
+`https://bike-sharing-agungknwn.streamlit.app/`
