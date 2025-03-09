@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+import os
 
 
 # Helper Functions
@@ -97,7 +98,8 @@ def trend_plot(
     return fig
 
 
-data = pd.read_csv("main_data.csv")
+file_path = os.path.join(os.getcwd(), "main_data.csv")
+data = pd.read_csv(file_path)
 
 # Global variables
 years = ["2011", "2012"]
