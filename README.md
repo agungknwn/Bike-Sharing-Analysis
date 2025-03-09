@@ -1,4 +1,4 @@
-# Sharing Bike Dashboard ✨
+# Sharing Bike Dashboard !!!
 
 ## Clone this Repo
 `git clone https://github.com/agungknwn/Bike-Sharing-Analysis.git`
@@ -20,4 +20,6 @@ pip install -r requirements.txt
 
 ## Run steamlit app
 ```
+cd dashboard/
 streamlit run dashboard.py
+```
